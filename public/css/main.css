@@ -1,0 +1,16 @@
+#historical-section {
+	display:none;
+}
+
+.loading {    
+    background-color: #ffffff !important; 
+    background-image: url("./../images/loading.gif") !important;
+    background-size: 25px 25px !important;
+    background-position:right center !important;
+    background-repeat: no-repeat !important;
+}
+
+#error {
+	display:none;
+	color:red;
+}

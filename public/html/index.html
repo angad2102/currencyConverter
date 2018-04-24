@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		
+	<title>Currency Converter</title>
+	<link href="css/main.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/datepicker.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+	
+	<div class="row">
+		<div class="col-xs-12">
+			<h1>Currency Converter</h1>
+		</div>
+	</div>
+	
+	<br>
+	<br>
+	<div class="row">
+		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
+			<input class="form-control" type="number" id="base-value" value=1>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-8 col-xs-8">
+			<select class="form-control" disabled>
+				<option value="USD" selected="selected">USD</option>
+			</select>
+		</div>
+	</div>
+	<p></p>
+	<p>To</p>
+	<div class="row">
+		<div id="exchnage-div" class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
+			<input class="form-control" type="number" id="exchnage-value" value=1>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-8 col-xs-8">
+			<select class="form-control" id="to-currencies">
+				<option value="USD" selected="selected">United States Dollar (USD)</option>
+			</select>
+		</div>
+	</div>
+	<div id="error"></div>
+
+	<br>
+	<br>
+
+	<div class="row">
+		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+			<input id="latest" type="radio" name="latest" value="latest" checked>
+			<label  for="latest">Latest Data </label>
+		</div>
+		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+			<input id="historical" type="radio" name="historical" value="historical">
+			<label for="historical">Historical Data </label>
+		</div>
+	</div>
+
+	<br>
+
+	<div id="historical-section" class="row">
+		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+		Date: 
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-8 col-xs-8">
+			<input class="form-control" id="date" data-toggle="datepicker">
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/main.js"></script>
+
+
+</div>
+</body>
+
+</html>
