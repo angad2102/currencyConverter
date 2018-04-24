@@ -4,6 +4,10 @@ Currency converter is a web app to get latest as well as historical exchange rat
 
 Along with just getting the exchange rate for a currency, the app can also perform calculations from one currency to another. 
 
+A working copy of the app has been hosted on http://128.199.135.164/. 
+
+A copy of my resume can be fount at https://drive.google.com/file/d/1Xbq9bE8WRrr5CxVshitZmyMPvDRZA6i-/view?usp=sharing. 
+
 The app can be started by running 
 
 `node server.js`
@@ -56,3 +60,5 @@ There are 4 basic tests.
 
 - The app just provides USD as base currency which is a limitation applied by openexchangerates.org for the free plan. 
 - The app could also implement a feature to show graphs for currency trends but that feature is not accessible in the openexchangerates's free plan. 
+
+
